@@ -65,7 +65,16 @@ class Book
     {
         return pages;
     }
-    
+    //Satisfies the requirement for 2.87
+    /**
+     * Prints out all details of the book in the terminal 
+     */
+    public void printDetails()
+    {
+        System.out.println("Title - " + title);
+        System.out.println("Author - " + author);
+        System.out.println("Pages - " + pages);
+    }
     
     
     
