@@ -39,4 +39,28 @@ class Book
     {
         return title;
     }
+    //Satisfies the requirement for 2.84
+    /**
+     * Prints out the authors name in the terminal
+     */
+    public void printAuthor()
+    {
+        System.out.println("The author of this book is " + author);
+    }
+    //Satisfies the requirement for 2.84
+    /**
+     * Prints out the title of the book in the terminal
+     */
+    public void printTitle()
+    {
+        System.out.println("The title of this book is " + title);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 }
