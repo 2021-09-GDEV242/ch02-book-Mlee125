@@ -21,6 +21,22 @@ class Book
         author = bookAuthor;
         title = bookTitle;
     }
-
+    
     // Add the methods here ...
+    //Satisfies the requirement for 2.83
+    /**
+     * Prints out the authors name 
+     */
+    public String printAuthor()
+    {
+       return author; 
+    }
+    //Satisfies the requirement for 2.83
+    /**
+     * Prints out the title of the book
+     */
+    public String printTitle()
+    {
+        return title;
+    }
 }
