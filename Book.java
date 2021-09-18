@@ -27,7 +27,7 @@ class Book
     /**
      * Prints out the authors name 
      */
-    public String printAuthor()
+    public String getAuthor()
     {
        return author; 
     }
@@ -35,7 +35,7 @@ class Book
     /**
      * Prints out the title of the book
      */
-    public String printTitle()
+    public String getTitle()
     {
         return title;
     }
