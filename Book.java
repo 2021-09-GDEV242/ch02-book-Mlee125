@@ -13,6 +13,8 @@ class Book
     private String title;
     //Satisfies the requirement for 2.85
     private int pages;
+    //Satisfies the requirement for 2.88
+    private String refNumber;
     /**
      * Set the author and title fields when this object
      * is constructed.
@@ -22,6 +24,7 @@ class Book
         author = bookAuthor;
         title = bookTitle;
         pages = bookPages;
+        refNumber = "";
     }
     
     // Add the methods here ...
@@ -75,7 +78,21 @@ class Book
         System.out.println("Author - " + author);
         System.out.println("Pages - " + pages);
     }
-    
+    //Satisfies the requirement for 2.88
+    /**
+     * Sets the reference number for this book
+     */
+    public void setrefNumber(String ref)
+    {
+        refNumber = ref;
+    }
+    /**
+     * returns the refNumber
+     */
+    public String refNumber()
+    {
+        return refNumber;
+    }
     
     
     
