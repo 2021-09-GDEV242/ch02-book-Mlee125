@@ -15,6 +15,8 @@ class Book
     private int pages;
     //Satisfies the requirement for 2.88
     private String refNumber;
+    //Satisfies the requirement for 2.91
+    private int borrowed;
     /**
      * Set the author and title fields when this object
      * is constructed.
@@ -86,6 +88,8 @@ class Book
             refNumber = "zzz";
         }
         System.out.println("Reference number - " + refNumber);
+        //Satisfies the requirement for 2.91
+        System.out.println("Times borrowed - " + borrowed);
     }
     //Satisfies the requirement for 2.90
     /**
@@ -108,7 +112,21 @@ class Book
     {
         return refNumber;
     }
-    
+    //Satisfies the requirement for 2.91
+    /**
+     * Counts the amount of times this book has been borrowed.
+     */
+    public void borrowed()
+    {
+        borrowed++;
+    }
+    /**
+     * Returns the amount of times this book has been borrowed
+     */
+    public int getborrowed()
+    {
+        return borrowed;
+    }
     
     
     
